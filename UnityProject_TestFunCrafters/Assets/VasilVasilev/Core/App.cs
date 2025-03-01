@@ -9,7 +9,7 @@ using EventType = VasilVasilev.Events.EventType;
 
 namespace VasilVasilev.Core
 {
-    public class App : Singleton<App>
+    public class App : MonoBehaviour
     {        
         [Header("Configuration")]
         [SerializeField] int _dataItemsPerPage = 5;
